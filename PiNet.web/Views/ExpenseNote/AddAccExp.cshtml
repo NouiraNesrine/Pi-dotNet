@@ -1,0 +1,103 @@
+﻿@model PiNet.web.Models.AccommodationModel
+
+@{
+    ViewBag.Title = "AddAccExp";
+    Layout = "~/Views/Shared/_Template.cshtml";
+}
+
+<h2>Add Accommodation Expense</h2>
+
+@using (Html.BeginForm("AddAccExp", "ExpenseNote", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        <input type="hidden" name="id" value="@ViewData["id"]" />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.accommodationBill, "Upload Accommodation Bill :", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <label class="btn btn-accent" for="file">
+                    <span id="upload-file-info2">
+                        @Html.TextBox("file", "", new { type = "file", @style = "display:none;" })
+                        @Html.ValidationMessageFor(model => model.accommodationBill)
+                        Upload file
+                    </span>
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.acctype, "Accommodation Type :", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("acctype", (SelectList)ViewData["accType"], new { @class = "select2_demo_2 form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.costs, "Bill Total :", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.costs, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.costs, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.duration, "Accommodation Duration :", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.duration, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.duration, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.idFoodIncluded, "Food :", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.CheckBoxFor(model => model.idFoodIncluded, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.idFoodIncluded, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="homerDemo2 btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+<script>
+    $(document).ready(function () {
+
+        toastr.options = {
+            "debug": false,
+            "newestOnTop": false,
+            "positionClass": "toast-bottom-right",
+            "closeButton": true,
+            "progressBar": true
+        };
+
+        $('.homerDemo1').on('click', function (event) {
+            toastr.info('Info - This is a custom LUNA info notification');
+        });
+
+        $('.homerDemo2').on('click', function (event) {
+            toastr.success('Added Successfully');
+        });
+
+        $('.homerDemo3').on('click', function (event) {
+            toastr.warning('Warning - This is a LUNA warning notification');
+        });
+
+        $('.homerDemo4').on('click', function (event) {
+            toastr.error('Error - This is a LUNA error notification');
+        });
+
+
+    });
+</script>

@@ -1,0 +1,134 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Template.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="view-header">
+                <div class="header-title" style="margin-left:0">
+                    <div class="header-icon">
+                        <i class="pe page-header-icon pe-7s-box1"></i>
+                    </div>
+                    <h2 class="font-light m-b-xs">
+                        Missions Approved
+                    </h2>
+                    <small>List of missions:</small>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="panel panel-filled">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="input-group m-b-xs m-t-xs">
+                                <input type="text" class="form-control" placeholder="Search by Name.." aria-describedby="button-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <select class="form-control m-b-xs m-t-xs" name="account" style="width: 100%">
+                                <option selected="">Select status</option>
+                                <option>Option 1</option>
+                                <option>Option 2</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3">
+                            <select class="form-control m-t-xs" name="account" style="width: 100%">
+                                <option selected="">Sort by:</option>
+                                <option>Option 1</option>
+                                <option>Option 2</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-body">
+            <table class="table table-vertical-align-middle table-responsive-sm">
+                <thead>
+                    <tr>
+                        <th>
+                            Status
+                        </th>
+                        <th>
+                            Mission
+                        </th>
+                        <th>
+                            Client
+                        </th>
+                        <th>
+                            Place
+                        </th>
+                        <th>
+                            Supervised by
+                        </th>
+                        <th>
+                            Started
+                        </th>
+                        <th>
+                            Deadline
+                        </th>
+                        <th>
+                            Estimated Budget
+                        </th>
+                        <th>
+                            Actions
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var p in ViewBag.result)
+                    {
+                        <tr>
+                            <td>
+                                <span class="label label-warning"> @p.state</span>
+                            </td>
+                            <td>
+                                <a href="#"> @p.title</a>
+
+                                <div class="small"><i class="fa fa-clock-o"></i>  @p.description</div>
+                            </td>
+                            <td>
+                                @p.client
+                            </td>
+                            <td>
+                                @p.place_intervention
+                            </td>
+                            <td>
+                                @p.suprvisedBy.Firstname @p.suprvisedBy.Lastname
+                            </td>
+                            <td>
+                                @p.date_start
+                            </td>
+                            <td>
+                                @p.date_finish
+                            </td>
+                            <td>
+                                @p.estimated_budget TND
+                            </td>
+                            <td>
+                                <div class="btn-group">
+                                    <button class="btn btn-default btn-xs"><i class="fa fa-folder"></i> View</button>
+                                    <button class="btn btn-default btn-xs"><i class="fa fa-pencil"></i> @Html.ActionLink(" Add Expense Note", "createNote", new { id = p.refrence })</button>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
