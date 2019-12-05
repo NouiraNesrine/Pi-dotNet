@@ -1,0 +1,27 @@
+C:\Users\louai\source\repos\PidevFinal\Domain\bin\Debug\Domain.dll
+C:\Users\louai\source\repos\PidevFinal\Domain\bin\Debug\Domain.pdb
+C:\Users\louai\source\repos\PidevFinal\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\louai\source\repos\PidevFinal\Domain\obj\Debug\Domain.dll
+C:\Users\louai\source\repos\PidevFinal\Domain\obj\Debug\Domain.pdb
+E:\visuelStudioProjects\PidevFinal\Domain\bin\Debug\Domain.dll
+E:\visuelStudioProjects\PidevFinal\Domain\bin\Debug\Domain.pdb
+E:\visuelStudioProjects\PidevFinal\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+E:\visuelStudioProjects\PidevFinal\Domain\obj\Debug\Domain.dll
+E:\visuelStudioProjects\PidevFinal\Domain\obj\Debug\Domain.pdb
+E:\visuelStudioProjects\PidevFinal\Domain\bin\Debug\Domain.dll.config
+E:\visuelStudioProjects\PidevFinal\Domain\bin\Debug\EntityFramework.dll
+E:\visuelStudioProjects\PidevFinal\Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\visuelStudioProjects\PidevFinal\Domain\bin\Debug\EntityFramework.xml
+E:\visuelStudioProjects\PidevFinal\Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\visuelStudioProjects\PidevFinal\Domain\obj\Debug\Domain.csproj.CopyComplete
+F:\ghacha\BL SERVICE\PidevFinal\Domain\bin\Debug\Domain.dll.config
+F:\ghacha\BL SERVICE\PidevFinal\Domain\bin\Debug\Domain.dll
+F:\ghacha\BL SERVICE\PidevFinal\Domain\bin\Debug\Domain.pdb
+F:\ghacha\BL SERVICE\PidevFinal\Domain\bin\Debug\EntityFramework.dll
+F:\ghacha\BL SERVICE\PidevFinal\Domain\bin\Debug\EntityFramework.SqlServer.dll
+F:\ghacha\BL SERVICE\PidevFinal\Domain\bin\Debug\EntityFramework.xml
+F:\ghacha\BL SERVICE\PidevFinal\Domain\bin\Debug\EntityFramework.SqlServer.xml
+F:\ghacha\BL SERVICE\PidevFinal\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+F:\ghacha\BL SERVICE\PidevFinal\Domain\obj\Debug\Domain.csproj.CopyComplete
+F:\ghacha\BL SERVICE\PidevFinal\Domain\obj\Debug\Domain.dll
+F:\ghacha\BL SERVICE\PidevFinal\Domain\obj\Debug\Domain.pdb
