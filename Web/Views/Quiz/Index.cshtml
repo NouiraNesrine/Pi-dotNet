@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Data.quiz>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+    <table class="table">
+        <tr>
+            <th>
+               question 1
+            </th>
+            <th>
+                question 2
+            </th>
+            <th>
+                question 3
+            </th>
+            <th>
+             reponse vrai de question une
+            </th>
+            <th>
+                reponse vrai de question deux
+            </th>
+            <th>
+                reponse vrai de question trois
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr class="chercher">
+                <td>
+                    @Html.DisplayFor(modelItem => item.q1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.q2)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.q3)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.r1j)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.r2j)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.r3j)
+                </td>
+                <td>
+
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Idq }, null) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Idq }, null) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Idq }, null)
+                </td>
+            </tr>
+        }
+
+    </table>
+   
+ 

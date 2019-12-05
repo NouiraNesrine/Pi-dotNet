@@ -1,0 +1,228 @@
+﻿@model Data.quiz
+@{
+    ViewBag.Title = "Evaluate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Evaluate</h2>
+
+<style>
+    .radio {
+        padding-left: 20px;
+    }
+
+        .radio label {
+            display: inline-block;
+            position: relative;
+            padding-left: 5px;
+        }
+
+            .radio label::before {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                width: 17px;
+                height: 17px;
+                left: 0;
+                margin-left: -20px;
+                border: 1px solid #cccccc;
+                border-radius: 50%;
+                background-color: #fff;
+                -webkit-transition: border 0.15s ease-in-out;
+                -o-transition: border 0.15s ease-in-out;
+                transition: border 0.15s ease-in-out;
+            }
+
+            .radio label::after {
+                display: inline-block;
+                position: absolute;
+                content: " ";
+                width: 11px;
+                height: 11px;
+                left: 3px;
+                top: 3px;
+                margin-left: -20px;
+                border-radius: 50%;
+                background-color: #555555;
+                -webkit-transform: scale(0, 0);
+                -ms-transform: scale(0, 0);
+                -o-transform: scale(0, 0);
+                transform: scale(0, 0);
+                -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+                -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+                -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+                transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+            }
+
+        .radio input[type="radio"] {
+            opacity: 0;
+        }
+
+            .radio input[type="radio"]:focus + label::before {
+                outline: thin dotted;
+                outline: 5px auto -webkit-focus-ring-color;
+                outline-offset: -2px;
+            }
+
+            .radio input[type="radio"]:checked + label::after {
+                -webkit-transform: scale(1, 1);
+                -ms-transform: scale(1, 1);
+                -o-transform: scale(1, 1);
+                transform: scale(1, 1);
+            }
+
+            .radio input[type="radio"]:disabled + label {
+                opacity: 0.65;
+            }
+
+                .radio input[type="radio"]:disabled + label::before {
+                    cursor: not-allowed;
+                }
+
+        .radio.radio-inline {
+            margin-top: 0;
+        }
+
+    .radio-primary input[type="radio"] + label::after {
+        background-color: #428bca;
+    }
+
+    .radio-primary input[type="radio"]:checked + label::before {
+        border-color: #428bca;
+    }
+
+    .radio-primary input[type="radio"]:checked + label::after {
+        background-color: #428bca;
+    }
+
+    .radio-danger input[type="radio"] + label::after {
+        background-color: #d9534f;
+    }
+
+    .radio-danger input[type="radio"]:checked + label::before {
+        border-color: #d9534f;
+    }
+
+    .radio-danger input[type="radio"]:checked + label::after {
+        background-color: #d9534f;
+    }
+
+    .radio-info input[type="radio"] + label::after {
+        background-color: #5bc0de;
+    }
+
+    .radio-info input[type="radio"]:checked + label::before {
+        border-color: #5bc0de;
+    }
+
+    .radio-info input[type="radio"]:checked + label::after {
+        background-color: #5bc0de;
+    }
+
+    .radio-warning input[type="radio"] + label::after {
+        background-color: #f0ad4e;
+    }
+
+    .radio-warning input[type="radio"]:checked + label::before {
+        border-color: #f0ad4e;
+    }
+
+    .radio-warning input[type="radio"]:checked + label::after {
+        background-color: #f0ad4e;
+    }
+
+    .radio-success input[type="radio"] + label::after {
+        background-color: #5cb85c;
+    }
+
+    .radio-success input[type="radio"]:checked + label::before {
+        border-color: #5cb85c;
+    }
+
+    .radio-success input[type="radio"]:checked + label::after {
+        background-color: #5cb85c;
+    }
+</style>
+<h2>Quiz</h2>
+<form method="post" action="/Quiz/Evaluate">
+    @Html.HiddenFor(model => model.Idq)
+ 
+        <h4>@Model.q1</h4>
+        <br />
+        <br />
+      
+        <div class="radio radio-info radio-inline col-md-3">
+            <input id="checkbox1" type="radio" name="rep1" value="@Model.r1f1" required>
+            <label for="checkbox1">
+                @Model.r1f1
+            </label>
+        </div>
+    <div class="radio radio-info radio-inline col-md-3">
+        <input id="checkbox2" type="radio" name="rep1" value="@Model.r1f2" required>
+        <label for="checkbox2">
+            @Model.r1f2
+        </label>
+    </div>
+    <div class="radio radio-info radio-inline col-md-3">
+        <input id="checkbox3" type="radio" name="rep1" value="@Model.r1j" required>
+        <label for="checkbox3">
+            @Model.r1j
+        </label>
+    </div>
+      
+        <br />
+        <br />
+    <h4>@Model.q2</h4>
+    <br />
+    <br />
+
+    <div class="radio radio-info radio-inline col-md-3">
+        <input id="checkbox4" type="radio" name="rep2" value="@Model.r2f1" required>
+        <label for="checkbox4">
+            @Model.r2f1
+        </label>
+    </div>
+
+    <div class="radio radio-info radio-inline col-md-3">
+        <input id="checkbox5" type="radio" name="rep2" value="@Model.r2f2" required>
+        <label for="checkbox5">
+            @Model.r2f2
+        </label>
+    </div>
+
+    <div class="radio radio-info radio-inline col-md-3">
+        <input id="checkbox6" type="radio" name="rep2" value="@Model.r2j" required>
+        <label for="checkbox6">
+            @Model.r2j
+        </label>
+    </div>
+    <h4>@Model.q2</h4>
+    <br />
+    <br />
+
+    <div class="radio radio-info radio-inline col-md-3">
+        <input id="checkbox7" type="radio" name="rep3" value="@Model.r3j" required>
+        <label for="checkbox7">
+            @Model.r3j
+        </label>
+    </div>
+
+    <div class="radio radio-info radio-inline col-md-3">
+        <input id="checkbox8" type="radio" name="rep3" value="@Model.r3f1" required>
+        <label for="checkbox8">
+            @Model.r3f1
+        </label>
+    </div>
+
+    <div class="radio radio-info radio-inline col-md-3">
+        <input id="checkbox9" type="radio" name="rep3" value="@Model.r3f2" required>
+        <label for="checkbox9">
+            @Model.r3f2
+        </label>
+    </div>
+    
+    
+    <div class="wrapper">
+        <input type="submit" value="submit" class="log-out-btn" />
+    </div>
+</form>

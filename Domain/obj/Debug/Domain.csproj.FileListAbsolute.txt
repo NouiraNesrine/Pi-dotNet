@@ -1,0 +1,14 @@
+C:\Users\louai\source\repos\PidevFinal\Domain\bin\Debug\Domain.dll
+C:\Users\louai\source\repos\PidevFinal\Domain\bin\Debug\Domain.pdb
+C:\Users\louai\source\repos\PidevFinal\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\louai\source\repos\PidevFinal\Domain\obj\Debug\Domain.dll
+C:\Users\louai\source\repos\PidevFinal\Domain\obj\Debug\Domain.pdb
+C:\Users\oussh\Desktop\PidevFinal\Domain\bin\Debug\Domain.dll
+C:\Users\oussh\Desktop\PidevFinal\Domain\bin\Debug\Domain.pdb
+C:\Users\oussh\Desktop\PidevFinal\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\oussh\Desktop\PidevFinal\Domain\obj\Debug\Domain.dll
+C:\Users\oussh\Desktop\PidevFinal\Domain\obj\Debug\Domain.pdb
+C:\Users\oussh\source\repos\PidevFinal\Domain\bin\Debug\Domain.dll
+C:\Users\oussh\source\repos\PidevFinal\Domain\bin\Debug\Domain.pdb
+C:\Users\oussh\source\repos\PidevFinal\Domain\obj\Debug\Domain.dll
+C:\Users\oussh\source\repos\PidevFinal\Domain\obj\Debug\Domain.pdb

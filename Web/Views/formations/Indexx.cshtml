@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Data.formation>
+@{
+    ViewBag.Title = "Indexx";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Indexx</h2>
+@{
+    List<SelectListItem> listItems = new List<SelectListItem>();
+    listItems.Add(new SelectListItem
+    {
+        Text = "analyse",
+        Value = "analyse"
+    });
+    listItems.Add(new SelectListItem
+    {
+        Text = "devlopement",
+        Value = "devlopement",
+        Selected = true
+    });
+    listItems.Add(new SelectListItem
+    {
+        Text = "finance",
+        Value = "finance"
+    });
+}
+<form action="/formations/filtrer" method="POST">
+
+    <select name="categorie">
+        <option value="finance">finance</option>
+        <option value="devlopement" selected>devlopement</option>
+        <option value="analyse">analyse</option>
+    </select>
+    <button type="submit">Filtrer</button>
+
+</form>
+
+<p>
+    @Html.ActionLink("Ajouter Formation", "Create")
+</p>
+<table class="table">
+    <tr>
+       <th>Date Debut</th>
+        <th>Date Fin</th>
+        <th>
+           Formateur
+        </th>
+        <th>
+            Nom de la formation 
+        </th>
+        <th>
+            Categorie
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.DateDebutF.Value.ToString("dd/MM/yyyy")
+    
+        </td>
+        <td>
+            @item.DateFinF.Value.ToString("dd/MM/yyyy")
+           
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Formateur)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomF)
+        </td>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.categorie)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idFormation }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idFormation }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idFormation })
+        </td>
+    </tr>
+}
+
+</table>

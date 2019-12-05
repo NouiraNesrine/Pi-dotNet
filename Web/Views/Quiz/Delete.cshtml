@@ -1,0 +1,73 @@
+﻿@model Data.quiz
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+
+    <h4>quiz</h4>
+    <hr />
+    
+        <h6>
+            @Html.DisplayNameFor(model => model.q1)
+        </h6>
+
+        <label>
+            @Html.DisplayFor(model => model.q1)
+        </label>
+
+        <h6>
+            @Html.DisplayNameFor(model => model.q2)
+        </h6>
+
+        <label>
+            @Html.DisplayFor(model => model.q2)
+        </label>
+
+        <h6>
+            @Html.DisplayNameFor(model => model.q3)
+        </h6>
+
+        <label>
+            @Html.DisplayFor(model => model.q3)
+        </label>
+
+        <h6>
+            @Html.DisplayNameFor(model => model.r1j)
+        </h6>
+
+        <label>
+            @Html.DisplayFor(model => model.r1j)
+        </label>
+
+        <h6>
+            @Html.DisplayNameFor(model => model.r2j)
+        </h6>
+
+        <label>
+            @Html.DisplayFor(model => model.r2j)
+        </label>
+
+        <h6>
+            @Html.DisplayNameFor(model => model.r3j)
+        </h6>
+
+        <label>
+            @Html.DisplayFor(model => model.r3j)
+        </label>
+
+    
+
+    @using (Html.BeginForm("Delete", "Quiz",FormMethod.Post)) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+

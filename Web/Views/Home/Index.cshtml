@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+                <form method="post" action="/Quiz/Login">
+                    <label>Username or Email Address * </label>
+                    <input name="email" type="text" onClick="this.select()" value="" />
+                    <label>Password * </label>
+                    <input name="password" type="password" onClick="this.select()" value="" />
+                    <button type="submit" class="log-submit-btn"><span>Log In</span></button>
+                    <div class="clearfix"></div>
+                
+                </form>
+               

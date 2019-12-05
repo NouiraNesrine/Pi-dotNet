@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Data.formation>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DateDebutF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateFinF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Formateur)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NomF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.skillsF_idSkills)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.categorie)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateDebutF)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateFinF)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Formateur)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomF)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.skillsF_idSkills)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.categorie)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idFormation }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idFormation }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idFormation })
+        </td>
+    </tr>
+}
+
+</table>

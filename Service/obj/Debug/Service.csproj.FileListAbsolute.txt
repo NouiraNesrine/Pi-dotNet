@@ -1,0 +1,33 @@
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Service.dll
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Service.pdb
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Domain.dll
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Service Pattern.dll
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Domain.pdb
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Service Pattern.pdb
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.dll
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.pdb
+C:\Users\oussh\Desktop\PidevFinal\Service\bin\Debug\Service.dll
+C:\Users\oussh\Desktop\PidevFinal\Service\bin\Debug\Service.pdb
+C:\Users\oussh\Desktop\PidevFinal\Service\bin\Debug\Domain.dll
+C:\Users\oussh\Desktop\PidevFinal\Service\bin\Debug\Service Pattern.dll
+C:\Users\oussh\Desktop\PidevFinal\Service\bin\Debug\Domain.pdb
+C:\Users\oussh\Desktop\PidevFinal\Service\bin\Debug\Service Pattern.pdb
+C:\Users\oussh\Desktop\PidevFinal\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\oussh\Desktop\PidevFinal\Service\obj\Debug\Service.dll
+C:\Users\oussh\Desktop\PidevFinal\Service\obj\Debug\Service.pdb
+C:\Users\oussh\source\repos\PidevFinal\Service\bin\Debug\Service.dll
+C:\Users\oussh\source\repos\PidevFinal\Service\bin\Debug\Service.pdb
+C:\Users\oussh\source\repos\PidevFinal\Service\bin\Debug\Data.dll
+C:\Users\oussh\source\repos\PidevFinal\Service\bin\Debug\Service Pattern.dll
+C:\Users\oussh\source\repos\PidevFinal\Service\bin\Debug\EntityFramework.dll
+C:\Users\oussh\source\repos\PidevFinal\Service\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\oussh\source\repos\PidevFinal\Service\bin\Debug\MySql.Data.dll
+C:\Users\oussh\source\repos\PidevFinal\Service\bin\Debug\Data.pdb
+C:\Users\oussh\source\repos\PidevFinal\Service\bin\Debug\Service Pattern.pdb
+C:\Users\oussh\source\repos\PidevFinal\Service\bin\Debug\EntityFramework.xml
+C:\Users\oussh\source\repos\PidevFinal\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\oussh\source\repos\PidevFinal\Service\obj\Debug\Service.dll
+C:\Users\oussh\source\repos\PidevFinal\Service\obj\Debug\Service.pdb

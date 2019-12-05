@@ -1,0 +1,73 @@
+﻿@model Data.formation
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>formation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateDebutF)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateDebutF)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateFinF)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateFinF)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Formateur)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Formateur)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomF)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomF)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.skillsF_idSkills)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.skillsF_idSkills)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.categorie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.categorie)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

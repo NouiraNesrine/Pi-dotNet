@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "PasserQuizInex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>PasserQuizInex</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>finance</th>
+            <th>devlopement</th>
+            <th>analyse</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> @Html.ActionLink("Passer un Quiz en finance            ", "Evaluate", new { categorie = "finance" }) </td>
+            <td> @Html.ActionLink("Passer un Quiz en devlopement        ", "Evaluate", new { categorie = "devlopement" }) </td>
+            <td> @Html.ActionLink("Passer un Quiz en analyse            ", "Evaluate", new { categorie = "analyse" }) </td>
+        </tr>
+    </tbody>
+</table>
+

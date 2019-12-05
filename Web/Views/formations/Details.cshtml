@@ -1,0 +1,60 @@
+﻿@model Data.formation
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+
+    <h4>formation</h4>
+    <hr />
+    
+        <h6>
+            @Html.DisplayNameFor(model => model.DateDebutF)
+        </h6>
+
+        <label>
+            @Html.DisplayFor(model => model.DateDebutF)
+        </label>
+
+        <h6>
+        @Html.DisplayNameFor(model => model.DateFinF)
+        </h6>
+
+        <label>
+            @Html.DisplayFor(model => model.DateFinF)
+        </label>
+
+        <h6>
+            @Html.DisplayNameFor(model => model.Formateur)
+        
+         </h6>
+
+        <label>
+            @Html.DisplayFor(model => model.Formateur)
+        </label>
+
+        <h6>
+            @Html.DisplayNameFor(model => model.NomF)
+        </h6>
+
+        <label>
+            @Html.DisplayFor(model => model.NomF)
+        </label>
+
+        <h6>
+            @Html.DisplayNameFor(model => model.categorie)
+        </h6>
+
+        <label>
+            @Html.DisplayFor(model => model.categorie)
+        </label>
+
+        
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idFormation }) |
+    @Html.ActionLink("Back to List", "Indexx")
+</p>

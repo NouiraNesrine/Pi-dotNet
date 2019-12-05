@@ -1,0 +1,65 @@
+﻿@model Data.quiz
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+
+    <h4>quiz</h4>
+    <hr />
+  
+       
+         <h6>  Question n°1 :</h6>
+ 
+<br />
+        <label>
+    @Html.DisplayFor(model => model.q1)
+
+</label>
+ <br />       
+           <h6> Question n°2</h6>
+        
+
+        
+          <label>  @Html.DisplayFor(model => model.q2)</label>
+        
+
+        
+        <h6>    Question n°3</h6>
+        
+
+        
+         <label>  @Html.DisplayFor(model => model.q3)</label> 
+        
+
+        
+           <h6> Reponse pour Question n°1</h6>
+        
+
+        
+         <label>   @Html.DisplayFor(model => model.r1j)</label>
+        
+
+        
+         <h6>   Reponse pour Question n°2</h6>
+        
+
+        
+          <label>  @Html.DisplayFor(model => model.r2j)</label>
+        
+
+        
+           <h6> Reponse pour Question n°3</h6>
+        
+
+        
+         <label>   @Html.DisplayFor(model => model.r3j)</label>
+        
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Idq }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

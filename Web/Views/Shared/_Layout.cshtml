@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from webapplayers.com/luna_admin-v1.4/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Nov 2019 23:56:36 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900' rel='stylesheet' type='text/css'>
+
+    <!-- Page title -->
+    <title>LUNA | Responsive Admin Theme</title>
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="~/Content/vendor/fontawesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="~/Content/vendor/animate.css/animate.css" />
+    <link rel="stylesheet" href="~/Content/vendor/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/Content/vendor/toastr/toastr.min.css" />
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="~/Content/styles/pe-icons/pe-icon-7-stroke.css" />
+    <link rel="stylesheet" href="~/Content/styles/pe-icons/helper.css" />
+    <link rel="stylesheet" href="~/Content/styles/stroke-icons/style.css" />
+    <link rel="stylesheet" href="~/Content/styles/style.css">
+</head>
+<body>
+
+    <!-- Wrapper-->
+    <div class="wrapper">
+
+        <!-- Header-->
+        <nav class="navbar navbar-expand-md navbar-default fixed-top">
+            <div class="navbar-header">
+                <div id="mobile-menu">
+                    <div class="left-nav-toggle">
+                        <a href="#">
+                            <i class="stroke-hamburgermenu"></i>
+                        </a>
+                    </div>
+                </div>
+                <a class="navbar-brand" href="index-2.html">
+                    ADVYTEAM
+                    <span></span>
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <div class="left-nav-toggle">
+                    <a href="#">
+                        <i class="stroke-hamburgermenu"></i>
+                    </a>
+                </div>
+                <form class="navbar-form mr-auto">
+                    <input hidden="true" type="text" class="form-control" placeholder="Search data for analysis" style="width: 175px">
+                </form>
+                <ul class="nav navbar-nav">
+
+                    <li class="nav-item profil-link">
+                        <a href="login.html">
+                            <span class="profile-address">louai.aloui@advyteam.com</span>
+                            <img src="~/Content/images/profile.jpg" class="rounded-circle" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End header-->
+        <!-- Navigation-->
+        <aside class="navigation">
+            <nav>
+                <ul class="nav luna-nav">
+                    @{ Data.user user = (Data.user)Session["user"];}
+                    @if(user != null) { 
+                    if (user.role.Equals("administrateur")) {
+                    <li>
+                        <a href="#monitoring" data-toggle="collapse" aria-expanded="false">
+                            Gestion Formation<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
+                        </a>
+                        <ul id="monitoring" class="nav nav-second collapse">
+                            <li><a href="/formations/Indexx"> Consulter Formations </a></li>
+                        
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#monitoringg" data-toggle="collapse" aria-expanded="false">
+                            Gestion Quiz<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
+                        </a>
+                        <ul id="monitoringg" class="nav nav-second collapse">
+                            <li><a href="/Quiz/Index"> Consulter les Quiz </a></li>
+                        </ul>
+                        </li>
+                        }
+                        else
+                        {
+                            <li>
+                                <a href="#monitoringgggg" data-toggle="collapse" aria-expanded="false">
+                                    Gestion Quiz<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
+                                </a>
+                                <ul id="monitoringgggg" class="nav nav-second collapse">
+                                    <li><a href="/Quiz/PasserQuizInex"> Consulter les Quiz </a></li>
+                                </ul>
+                            </li>
+                        }
+                        <li>
+                            <a href="#monitoringgg" data-toggle="collapse" aria-expanded="false">
+                                Profile<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
+                            </a>
+                            <ul id="monitoringgg" class="nav nav-second collapse">
+                                <li><a href="/Quiz/Logout">Logout </a></li>
+                            </ul>
+                        </li>
+                    }
+                </ul>
+            </nav>
+        </aside>
+        <!-- End navigation-->
+        <!-- Main content-->
+        <section class="content">
+            @RenderBody()
+        </section>
+        <!-- End main content-->
+
+    </div>
+    <!-- End wrapper-->
+    <!-- Vendor scripts -->
+   <script src="~/Content/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="~/Content/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    
+
+    <!-- App scripts -->
+
+</body>
+
+
+<!-- Mirrored from webapplayers.com/luna_admin-v1.4/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Nov 2019 23:56:54 GMT -->
+</html>
