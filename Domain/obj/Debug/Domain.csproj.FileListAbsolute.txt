@@ -1,0 +1,14 @@
+C:\Users\louai\source\repos\PidevFinal\Domain\bin\Debug\Domain.dll
+C:\Users\louai\source\repos\PidevFinal\Domain\bin\Debug\Domain.pdb
+C:\Users\louai\source\repos\PidevFinal\Domain\bin\Debug\Data.dll
+C:\Users\louai\source\repos\PidevFinal\Domain\bin\Debug\EntityFramework.dll
+C:\Users\louai\source\repos\PidevFinal\Domain\bin\Debug\Data.pdb
+C:\Users\louai\source\repos\PidevFinal\Domain\bin\Debug\Data.dll.config
+C:\Users\louai\source\repos\PidevFinal\Domain\bin\Debug\EntityFramework.xml
+C:\Users\louai\source\repos\PidevFinal\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\louai\source\repos\PidevFinal\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\louai\source\repos\PidevFinal\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\louai\source\repos\PidevFinal\Domain\obj\Debug\Domain.dll
+C:\Users\louai\source\repos\PidevFinal\Domain\obj\Debug\Domain.pdb
+C:\Users\louai\source\repos\PidevFinal\Domain\bin\Debug\Newtonsoft.Json.dll
+C:\Users\louai\source\repos\PidevFinal\Domain\bin\Debug\Newtonsoft.Json.xml

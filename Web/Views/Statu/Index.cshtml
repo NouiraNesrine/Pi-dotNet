@@ -1,0 +1,245 @@
+﻿@model IEnumerable<Data.statu>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+
+
+<div class="container-fluid">
+
+    <div class="row m-t-sm">
+
+        <div class="col-md-12">
+            <div class="panel panel-filled">
+
+                <div class="panel-body">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div>
+                                <i class="pe pe-7s-user c-accent fa-3x"></i>
+                                <h2 class="m-t-xs m-b-none">
+                                    ADVYTEAM CHAT !!!
+                                </h2>
+                                <small>
+                                    Let's communicate
+                                </small>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <table class="table small m-t-sm">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <strong class="c-white">122</strong> Projects
+                                        </td>
+                                        <td>
+                                            <strong class="c-white">42</strong> Active project
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong class="c-white">61</strong> Comments
+                                        </td>
+                                        <td>
+                                            <strong class="c-white">84</strong> Articles
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong class="c-white">244</strong> Tags
+                                        </td>
+                                        <td>
+                                            <strong class="c-white">42</strong> Client
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-3 m-t-sm">
+                            <span class="c-white">
+                                Write if you are interested !!
+                            </span>
+                            <br>
+
+                            <div class="btn-group m-t-sm">
+                                <a href="#" class="btn btn-default btn-sm"><i class="fa fa-envelope"></i> Contact</a>
+                                <a href="#" class="btn btn-default btn-sm"><i class="fa fa-check"></i> Check availability</a>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-md-6">
+
+            <div class="panel">
+                <div class="panel-body" id="comment">
+                    <h4> Recent Activity</h4>
+                    @foreach (var item in ViewBag.result)
+                    {
+                        <div class="v-timeline vertical-container">
+                            <div class="vertical-timeline-block">
+                                <div class="vertical-timeline-icon">
+                                    <i class="fa fa-user"></i>
+                                </div>
+                                <div class="vertical-timeline-content">
+                                    <div class="p-sm">
+                                        <span class="vertical-date pull-right"> <small>1 day ago</small> </span>
+
+                                        <h2 id="idstatu">@item.idStatu</h2>
+
+                                        <p>@item.description</p>
+                                        <p></p>
+                                        <button class="btn btn-default " type="button" onclick="javascript:ShowModal('@item.idStatu','@item.description');"><i class="fa fa-paste"></i> Edit</button>
+                                        <button class="btn btn-default " type="button" onclick="javascript:Delete(@item.idStatu);"><i class="fa fa-trash"></i> Delete</button>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+
+                        </div>
+                    }
+                </div>
+                <div class="panel panel-filled">
+
+                    <div class="panel-body">
+
+                        <h3>Support </h3>
+
+                        <p>
+                            Fill the form and find answer to your question or contact with us on support email.
+                        </p>
+
+                        <div class="form-group">
+                            <input id="inputx" class="form-control" placeholder="What are you looking for ?">
+                            <button id="btnValidate" onclick="javascript: Postcomment();">Post</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="row">
+
+
+    </div>
+
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+               
+
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="hidden" />
+                <h4 class="m-t-none">Edit</h4>
+
+               
+                <input type="text" id="test" value="aaa" class="form-control"/>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-accent" onclick="javascript:Edit();">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script>
+    var myId;
+    var sta;
+    function Postcomment() {
+
+        var postt = $("#inputx").val();
+        var idd = $("#idstatu").val();
+        $("#btnValidate").val("Please wait....");
+        $.ajax({
+            method: "POST",
+            url: "/Statu/Create/",
+            data: { id: parseInt(idd), subject: postt }
+        })
+            .done(function (msg) {
+                if (msg == 1) {
+                    $("#comment").load(location.href + " #comment");
+                    // $("#divMessage").html("Comment posted successfully.");
+                    $("#inputx").val('');
+                } else {
+                    //  $("#divMessage").html("Error while commenting.");
+                }
+                $("#btnValidate").val("Post Comment");
+            });
+    }
+
+
+    function Delete(id) {
+        $.ajax({
+            method: "POST",
+            url: "/Statu/DeleteS/",
+            data: { id: parseInt(id) }
+        })
+            .done(function (msg) {
+                if (msg == 1) {
+                    $("#comment").load(location.href + " #comment");
+                    // $("#divMessage").html("Comment posted successfully.");
+                    $("#inputx").val('');
+                } else {
+                    //  $("#divMessage").html("Error while commenting.");
+                }
+                $("#btnValidate").val("Post Comment");
+            });
+    }
+    function ShowModal(id,stat) {
+        $("#myModal").modal("show");
+        $("#test").val(stat);
+        window.myId = id;
+        window.sta = stat;
+    }
+    function Edit() {
+        var iputBox = $("#test").val();
+        $.ajax({
+            method: "POST",
+            url: "/Statu/Edit/",
+            data: { statu: iputBox, id: parseInt(window.myId) }
+        })
+            .done(function (msg) {
+                if (msg == 1) {
+                    $("#myModal").modal("hide");
+                    $("#comment").load(location.href + " #comment");
+                    // $("#divMessage").html("Comment posted successfully.");
+                    $("#inputx").val('');
+                } else {
+                    //  $("#divMessage").html("Error while commenting.");
+                }
+                $("#btnValidate").val("Post Comment");
+            });
+    }
+</script>

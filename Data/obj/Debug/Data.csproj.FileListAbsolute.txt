@@ -1,0 +1,16 @@
+C:\Users\louai\source\repos\PidevFinal\Data\bin\Debug\Data.dll.config
+C:\Users\louai\source\repos\PidevFinal\Data\bin\Debug\Data.dll
+C:\Users\louai\source\repos\PidevFinal\Data\bin\Debug\Data.pdb
+C:\Users\louai\source\repos\PidevFinal\Data\bin\Debug\EntityFramework.dll
+C:\Users\louai\source\repos\PidevFinal\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\louai\source\repos\PidevFinal\Data\bin\Debug\MySql.Data.dll
+C:\Users\louai\source\repos\PidevFinal\Data\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\louai\source\repos\PidevFinal\Data\bin\Debug\EntityFramework.xml
+C:\Users\louai\source\repos\PidevFinal\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\louai\source\repos\PidevFinal\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\louai\source\repos\PidevFinal\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\louai\source\repos\PidevFinal\Data\obj\Debug\Data.dll
+C:\Users\louai\source\repos\PidevFinal\Data\obj\Debug\Data.pdb
+C:\Users\louai\source\repos\PidevFinal\Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\louai\source\repos\PidevFinal\Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\louai\source\repos\PidevFinal\Data\obj\Debug\Data.csprojAssemblyReference.cache
