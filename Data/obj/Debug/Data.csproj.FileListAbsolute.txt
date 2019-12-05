@@ -1,0 +1,34 @@
+E:\visuelStudioProjects\PidevFinal\Data\bin\Debug\Data.dll.config
+E:\visuelStudioProjects\PidevFinal\Data\bin\Debug\Data.dll
+E:\visuelStudioProjects\PidevFinal\Data\bin\Debug\Data.pdb
+E:\visuelStudioProjects\PidevFinal\Data\bin\Debug\Domain.dll
+E:\visuelStudioProjects\PidevFinal\Data\bin\Debug\EntityFramework.dll
+E:\visuelStudioProjects\PidevFinal\Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\visuelStudioProjects\PidevFinal\Data\bin\Debug\MySql.Data.dll
+E:\visuelStudioProjects\PidevFinal\Data\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\visuelStudioProjects\PidevFinal\Data\bin\Debug\Domain.pdb
+E:\visuelStudioProjects\PidevFinal\Data\bin\Debug\EntityFramework.xml
+E:\visuelStudioProjects\PidevFinal\Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\visuelStudioProjects\PidevFinal\Data\obj\Debug\Data.csprojAssemblyReference.cache
+E:\visuelStudioProjects\PidevFinal\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+E:\visuelStudioProjects\PidevFinal\Data\obj\Debug\Data.csproj.CopyComplete
+E:\visuelStudioProjects\PidevFinal\Data\obj\Debug\Data.dll
+E:\visuelStudioProjects\PidevFinal\Data\obj\Debug\Data.pdb
+E:\visuelStudioProjects\PidevFinal\Data\bin\Debug\Domain.dll.config
+F:\ghacha\BL SERVICE\PidevFinal\Data\bin\Debug\Data.dll.config
+F:\ghacha\BL SERVICE\PidevFinal\Data\bin\Debug\Data.dll
+F:\ghacha\BL SERVICE\PidevFinal\Data\bin\Debug\Data.pdb
+F:\ghacha\BL SERVICE\PidevFinal\Data\bin\Debug\Domain.dll
+F:\ghacha\BL SERVICE\PidevFinal\Data\bin\Debug\EntityFramework.dll
+F:\ghacha\BL SERVICE\PidevFinal\Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\ghacha\BL SERVICE\PidevFinal\Data\bin\Debug\MySql.Data.dll
+F:\ghacha\BL SERVICE\PidevFinal\Data\bin\Debug\MySql.Data.Entity.EF6.dll
+F:\ghacha\BL SERVICE\PidevFinal\Data\bin\Debug\Domain.pdb
+F:\ghacha\BL SERVICE\PidevFinal\Data\bin\Debug\Domain.dll.config
+F:\ghacha\BL SERVICE\PidevFinal\Data\bin\Debug\EntityFramework.xml
+F:\ghacha\BL SERVICE\PidevFinal\Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\ghacha\BL SERVICE\PidevFinal\Data\obj\Debug\Data.csprojAssemblyReference.cache
+F:\ghacha\BL SERVICE\PidevFinal\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+F:\ghacha\BL SERVICE\PidevFinal\Data\obj\Debug\Data.csproj.CopyComplete
+F:\ghacha\BL SERVICE\PidevFinal\Data\obj\Debug\Data.dll
+F:\ghacha\BL SERVICE\PidevFinal\Data\obj\Debug\Data.pdb
