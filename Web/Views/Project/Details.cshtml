@@ -1,0 +1,69 @@
+﻿@model Web.Models.projetm
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>projetm</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.mailClient)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mailClient)
+        </dd>
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreHeuresEnRetard)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreHeuresEnRetard)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreHeuresEstimer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreHeuresEstimer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreHeuresTravailler)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreHeuresTravailler)
+        </dd>
+
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

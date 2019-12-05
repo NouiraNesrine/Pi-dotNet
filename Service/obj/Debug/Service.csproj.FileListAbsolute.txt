@@ -1,0 +1,43 @@
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Service.dll
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Service.pdb
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Domain.dll
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Service Pattern.dll
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Domain.pdb
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Service Pattern.pdb
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.dll
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.pdb
+E:\visuelStudioProjects\PidevFinal\Service\bin\Debug\Service.dll
+E:\visuelStudioProjects\PidevFinal\Service\bin\Debug\Service.pdb
+E:\visuelStudioProjects\PidevFinal\Service\bin\Debug\Data.dll
+E:\visuelStudioProjects\PidevFinal\Service\bin\Debug\Domain.dll
+E:\visuelStudioProjects\PidevFinal\Service\bin\Debug\Service Pattern.dll
+E:\visuelStudioProjects\PidevFinal\Service\bin\Debug\Data.pdb
+E:\visuelStudioProjects\PidevFinal\Service\bin\Debug\Data.dll.config
+E:\visuelStudioProjects\PidevFinal\Service\bin\Debug\Domain.pdb
+E:\visuelStudioProjects\PidevFinal\Service\bin\Debug\Service Pattern.pdb
+E:\visuelStudioProjects\PidevFinal\Service\obj\Debug\Service.csprojAssemblyReference.cache
+E:\visuelStudioProjects\PidevFinal\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+E:\visuelStudioProjects\PidevFinal\Service\obj\Debug\Service.csproj.CopyComplete
+E:\visuelStudioProjects\PidevFinal\Service\obj\Debug\Service.dll
+E:\visuelStudioProjects\PidevFinal\Service\obj\Debug\Service.pdb
+E:\visuelStudioProjects\PidevFinal\Service\bin\Debug\EntityFramework.dll
+E:\visuelStudioProjects\PidevFinal\Service\bin\Debug\Domain.dll.config
+E:\visuelStudioProjects\PidevFinal\Service\bin\Debug\EntityFramework.xml
+F:\ghacha\BL SERVICE\PidevFinal\Service\bin\Debug\Service.dll
+F:\ghacha\BL SERVICE\PidevFinal\Service\bin\Debug\Service.pdb
+F:\ghacha\BL SERVICE\PidevFinal\Service\bin\Debug\Data.dll
+F:\ghacha\BL SERVICE\PidevFinal\Service\bin\Debug\Domain.dll
+F:\ghacha\BL SERVICE\PidevFinal\Service\bin\Debug\Service Pattern.dll
+F:\ghacha\BL SERVICE\PidevFinal\Service\bin\Debug\Data.pdb
+F:\ghacha\BL SERVICE\PidevFinal\Service\bin\Debug\Data.dll.config
+F:\ghacha\BL SERVICE\PidevFinal\Service\bin\Debug\Domain.pdb
+F:\ghacha\BL SERVICE\PidevFinal\Service\bin\Debug\Domain.dll.config
+F:\ghacha\BL SERVICE\PidevFinal\Service\bin\Debug\Service Pattern.pdb
+F:\ghacha\BL SERVICE\PidevFinal\Service\obj\Debug\Service.csprojAssemblyReference.cache
+F:\ghacha\BL SERVICE\PidevFinal\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+F:\ghacha\BL SERVICE\PidevFinal\Service\obj\Debug\Service.csproj.CopyComplete
+F:\ghacha\BL SERVICE\PidevFinal\Service\obj\Debug\Service.dll
+F:\ghacha\BL SERVICE\PidevFinal\Service\obj\Debug\Service.pdb

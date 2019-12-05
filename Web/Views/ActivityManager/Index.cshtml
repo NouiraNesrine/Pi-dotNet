@@ -1,0 +1,95 @@
+﻿@model IEnumerable<Web.Models.activitym>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NombreHeuresEstimer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NombreHeuresTravailler)
+        </th>
+       
+        <th>
+            @Html.DisplayNameFor(model => model.description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.statut)
+        </th>
+        <th>
+           Numero de Projet
+        </th>
+        <th>Temps travaillé </th>
+
+        <th></th>
+    </tr>
+    @{
+        float pourcentagetravailler = 0;
+    }
+    
+
+    @foreach (var item in Model)
+    {
+
+        if (Convert.ToInt32(item.NombreHeuresEstimer) >= Convert.ToInt32(item.NombreHeuresTravailler))
+        {
+            pourcentagetravailler = Convert.ToInt32((item.NombreHeuresTravailler * 100) / item.NombreHeuresEstimer);
+        }
+        else
+        {
+            pourcentagetravailler = 0;
+        }
+
+
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreHeuresEstimer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreHeuresTravailler)
+            </td>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.statut)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.projet_id)
+            </td>
+
+
+            <td>
+
+                @pourcentagetravailler   %
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id })
+            </td>
+        </tr>
+    }
+
+    @Html.ActionLink("Trier les activites", "IndexTri")
+</table>

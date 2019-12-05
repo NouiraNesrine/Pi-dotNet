@@ -1,0 +1,101 @@
+﻿@model  PagedList.IPagedList<Data.activity>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "IndexTri";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    table {
+        width: 100%;
+    }
+
+        table tr td {
+            border: 2px solid black;
+            text-align: center;
+            word-wrap: break-word;
+        }
+
+        table tr:hover {
+            background-color: #000;
+            color: #fff;
+        }
+
+        table tr th {
+            border: 2px solid black;
+            text-align: center;
+            background-color: #fff;
+            color: #000;
+        }
+</style>
+
+@Html.ActionLink("Liste des activites", "Index")
+<h2>Trier les activités</h2>
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <th>
+                @Html.ActionLink("nom, ","IndexTri",
+         new { sortOrder = "nom", CurrentSort = ViewBag.CurrentSort })
+            </th>
+            <th>
+                @Html.ActionLink("numero Projet", "IndexTri",
+         new { sortOrder = "projet_id", CurrentSort = ViewBag.CurrentSort })
+            </th>
+
+            <th>
+                @Html.ActionLink("statut", "IndexTri",
+         new { sortOrder = "statut", CurrentSort = ViewBag.CurrentSort })
+            </th>
+           
+          
+            <th>
+                @Html.ActionLink("NombreHeuresEstimer", "IndexTri",
+         new { sortOrder = "NombreHeuresEstimer", CurrentSort = ViewBag.CurrentSort })
+            </th>
+            <th>
+                @Html.ActionLink("NombreHeuresTravailler", "IndexTri",
+         new { sortOrder = "NombreHeuresTravailler", CurrentSort = ViewBag.CurrentSort })
+            </th>
+            <th>
+                @Html.ActionLink("description", "IndexTri",
+         new { sortOrder = "description", CurrentSort = ViewBag.CurrentSort })
+            </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nom)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.projet_id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.statut)
+                </td>
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.NombreHeuresEstimer)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NombreHeuresTravailler)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.description)
+                </td>
+            </tr>
+        }
+    </table>
+    <br />
+    <div id='Paging' style="text-align:center">
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+        of @Model.PageCount
+
+        @Html.PagedListPager(Model, page => Url.Action("IndexTri", new { page }))
+    </div>
+
+}

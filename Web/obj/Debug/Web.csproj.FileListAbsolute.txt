@@ -1,0 +1,295 @@
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Web.dll.config
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Web.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Web.pdb
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\csc.exe
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\csc.exe.config
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\csc.rsp
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\csi.exe
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\csi.exe.config
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\csi.rsp
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.AppContext.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Console.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.IO.Compression.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.IO.Pipes.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Security.Claims.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Xml.XPath.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\vbc.exe
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\vbc.exe.config
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\vbc.rsp
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\louai\source\repos\PidevFinal\Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Antlr3.Runtime.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Newtonsoft.Json.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Net.Http.Formatting.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.Helpers.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.Http.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.Http.WebHost.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.Mvc.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.Optimization.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.Razor.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.WebPages.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\WebGrease.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.Helpers.xml
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.Mvc.xml
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.Optimization.xml
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.Razor.xml
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.WebPages.xml
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Newtonsoft.Json.xml
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Antlr3.Runtime.pdb
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Net.Http.Formatting.xml
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.Http.xml
+C:\Users\louai\source\repos\PidevFinal\Web\bin\System.Web.Http.WebHost.xml
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\louai\source\repos\PidevFinal\Web\obj\Debug\Web.csprojAssemblyReference.cache
+C:\Users\louai\source\repos\PidevFinal\Web\obj\Debug\Web.csproj.CoreCompileInputs.cache
+C:\Users\louai\source\repos\PidevFinal\Web\obj\Debug\Web.csproj.CopyComplete
+C:\Users\louai\source\repos\PidevFinal\Web\obj\Debug\Web.dll
+C:\Users\louai\source\repos\PidevFinal\Web\obj\Debug\Web.pdb
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Domain.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\EntityFramework.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\EntityFramework.SqlServer.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\MySql.Data.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\MySql.Data.Entity.EF6.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Service Pattern.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Service.dll
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Domain.pdb
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Service Pattern.pdb
+C:\Users\louai\source\repos\PidevFinal\Web\bin\Service.pdb
+C:\Users\louai\source\repos\PidevFinal\Web\bin\EntityFramework.xml
+C:\Users\louai\source\repos\PidevFinal\Web\bin\EntityFramework.SqlServer.xml
+E:\visuelStudioProjects\PidevFinal\Web\bin\Web.dll.config
+E:\visuelStudioProjects\PidevFinal\Web\bin\Web.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\Web.pdb
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\csc.exe
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\csc.exe.config
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\csc.rsp
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\csi.exe
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\csi.exe.config
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\csi.rsp
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\Microsoft.Managed.Core.targets
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.AppContext.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Collections.Immutable.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Console.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.IO.Compression.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.IO.FileSystem.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.IO.Pipes.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Reflection.Metadata.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Security.AccessControl.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Security.Claims.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Security.Principal.Windows.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.ValueTuple.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Xml.XmlDocument.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Xml.XPath.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\vbc.exe
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\vbc.exe.config
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\vbc.rsp
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\VBCSCompiler.exe
+E:\visuelStudioProjects\PidevFinal\Web\bin\roslyn\VBCSCompiler.exe.config
+E:\visuelStudioProjects\PidevFinal\Web\bin\Antlr3.Runtime.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\Domain.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\EntityFramework.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\EntityFramework.SqlServer.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\Microsoft.Web.Infrastructure.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\MySql.Data.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\MySql.Data.Entity.EF6.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\Newtonsoft.Json.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\Service Pattern.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\Service.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Net.Http.Formatting.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.Helpers.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.Http.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.Http.WebHost.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.Mvc.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.Optimization.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.Razor.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.WebPages.Deployment.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.WebPages.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.WebPages.Razor.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\WebGrease.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\Domain.pdb
+E:\visuelStudioProjects\PidevFinal\Web\bin\Service Pattern.pdb
+E:\visuelStudioProjects\PidevFinal\Web\bin\Service.pdb
+E:\visuelStudioProjects\PidevFinal\Web\bin\EntityFramework.xml
+E:\visuelStudioProjects\PidevFinal\Web\bin\EntityFramework.SqlServer.xml
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.Helpers.xml
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.Mvc.xml
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.Optimization.xml
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.Razor.xml
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.WebPages.xml
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.WebPages.Deployment.xml
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.WebPages.Razor.xml
+E:\visuelStudioProjects\PidevFinal\Web\bin\Newtonsoft.Json.xml
+E:\visuelStudioProjects\PidevFinal\Web\bin\Antlr3.Runtime.pdb
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Net.Http.Formatting.xml
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.Http.xml
+E:\visuelStudioProjects\PidevFinal\Web\bin\System.Web.Http.WebHost.xml
+E:\visuelStudioProjects\PidevFinal\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\visuelStudioProjects\PidevFinal\Web\obj\Debug\Web.csprojAssemblyReference.cache
+E:\visuelStudioProjects\PidevFinal\Web\obj\Debug\Web.csproj.CoreCompileInputs.cache
+E:\visuelStudioProjects\PidevFinal\Web\obj\Debug\Web.csproj.CopyComplete
+E:\visuelStudioProjects\PidevFinal\Web\obj\Debug\Web.dll
+E:\visuelStudioProjects\PidevFinal\Web\obj\Debug\Web.pdb
+E:\visuelStudioProjects\PidevFinal\Web\bin\Domain.dll.config
+E:\visuelStudioProjects\PidevFinal\Web\bin\Data.dll
+E:\visuelStudioProjects\PidevFinal\Web\bin\Data.pdb
+E:\visuelStudioProjects\PidevFinal\Web\bin\Data.dll.config
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Web.dll.config
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Web.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Web.pdb
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\csc.exe
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\csc.exe.config
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\csc.rsp
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\csi.exe
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\csi.exe.config
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\csi.rsp
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\Microsoft.Managed.Core.targets
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.AppContext.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Collections.Immutable.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Console.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.IO.Compression.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.IO.FileSystem.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.IO.Pipes.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Reflection.Metadata.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Security.AccessControl.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Security.Claims.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Security.Principal.Windows.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.ValueTuple.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Xml.XmlDocument.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Xml.XPath.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\vbc.exe
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\vbc.exe.config
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\vbc.rsp
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\VBCSCompiler.exe
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\roslyn\VBCSCompiler.exe.config
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Antlr3.Runtime.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Domain.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\EntityFramework.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\EntityFramework.SqlServer.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Microsoft.Web.Infrastructure.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\MySql.Data.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\MySql.Data.Entity.EF6.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Newtonsoft.Json.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Service Pattern.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Service.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Net.Http.Formatting.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.Helpers.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.Http.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.Http.WebHost.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.Mvc.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.Optimization.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.Razor.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.WebPages.Deployment.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.WebPages.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.WebPages.Razor.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\WebGrease.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Data.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Domain.pdb
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Domain.dll.config
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Service Pattern.pdb
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Service.pdb
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\EntityFramework.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\EntityFramework.SqlServer.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.Helpers.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.Mvc.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.Optimization.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.Razor.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.WebPages.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.WebPages.Deployment.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.WebPages.Razor.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Newtonsoft.Json.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Antlr3.Runtime.pdb
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Net.Http.Formatting.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.Http.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\System.Web.Http.WebHost.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Data.pdb
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Data.dll.config
+F:\ghacha\BL SERVICE\PidevFinal\Web\obj\Debug\Web.csprojAssemblyReference.cache
+F:\ghacha\BL SERVICE\PidevFinal\Web\obj\Debug\Web.csproj.CoreCompileInputs.cache
+F:\ghacha\BL SERVICE\PidevFinal\Web\obj\Debug\Web.csproj.CopyComplete
+F:\ghacha\BL SERVICE\PidevFinal\Web\obj\Debug\Web.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\obj\Debug\Web.pdb
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\Rotativa.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\PagedList.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\PagedList.Mvc.dll
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\PagedList.xml
+F:\ghacha\BL SERVICE\PidevFinal\Web\bin\PagedList.Mvc.xml
