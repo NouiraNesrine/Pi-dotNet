@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Data.evaluationsheet>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.decision.typeDec)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.commentaire)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dateCreation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.noteEmploye)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.noteManager)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user.Lastname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rate)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.decision.typeDec)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.commentaire)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dateCreation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.noteEmploye)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.noteManager)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user.Lastname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rate)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.evalId }) |
+            @Html.ActionLink("Details", "Details", new { id = item.evalId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.evalId })
+        </td>
+    </tr>
+}
+
+</table>

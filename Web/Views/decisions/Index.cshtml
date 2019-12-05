@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Data.decision>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+    <table class="table" id="Search">
+        <div class="container">
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                    <input type="text" id="Search" placeholder="Search fol leave" class="form-control" />
+                </div>
+            </div>
+        </div>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.dateCreationDec)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.score)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.typeDec)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.scoreFinal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.evaluationsheet.First().user.Firstname)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+        <tr class="Search">
+
+            <td>
+                @Html.DisplayFor(modelItem => item.dateCreationDec)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.score)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.typeDec)
+            </td>
+            <th>
+                @Html.DisplayFor(model => item.scoreFinal)
+            </th>
+            <th>
+                @Html.DisplayFor(model => item.evaluationsheet.First().user.Firstname)
+            </th>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.idDecision }) |
+                @Html.ActionLink("Details", "Details", new { id = item.idDecision }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.idDecision })
+            </td>
+        </tr>
+        }
+
+    </table>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            function Contains(text_one, text_two) {
+                if (text_one.indexOf(text_two) != -1)
+                    return true;
+            }
+            $("#Search").keyup(function () {
+                var searchText = $("#Search").val().toLowerCase();
+                $(".Search").each(function () {
+                    if (!Contains($(this).text().toLowerCase(), searchText)) {
+                        $(this).hide();
+                    }
+                    else {
+                        $(this).show();
+                    }
+                });
+            });
+        });
+    </script>

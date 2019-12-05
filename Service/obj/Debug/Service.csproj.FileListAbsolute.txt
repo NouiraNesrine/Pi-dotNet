@@ -1,0 +1,39 @@
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Service.dll
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Service.pdb
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Domain.dll
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Service Pattern.dll
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Domain.pdb
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Service Pattern.pdb
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.dll
+C:\Users\louai\source\repos\PidevFinal\Service\obj\Debug\Service.pdb
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Data.dll
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\EntityFramework.dll
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Data.pdb
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\Data.dll.config
+C:\Users\louai\source\repos\PidevFinal\Service\bin\Debug\EntityFramework.xml
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\Service.dll.config
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\Service.dll
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\Service.pdb
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\Data.dll
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\Domain.dll
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\EntityFramework.dll
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\Service Pattern.dll
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\MySql.Data.dll
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\Data.pdb
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\Data.dll.config
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\Domain.pdb
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\Domain.dll.config
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\Service Pattern.pdb
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\Service Pattern.dll.config
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\EntityFramework.xml
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\obj\Debug\Service.csprojAssemblyReference.cache
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\obj\Debug\Service.dll
+C:\Users\kahou\OneDrive\Bureau\PidevFinal\Service\obj\Debug\Service.pdb
